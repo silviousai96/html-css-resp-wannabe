@@ -71,3 +71,50 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* CSS MEDIA QUERY */
+
+@media screen and (max-width: 419px) {
+  
+  /* COMMON */ 
+  
+  .container {
+    width: 100%;    
+  }
+
+  img {  
+    height: 100px;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  /* BLOCCO LEZIONI */
+  
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    
+  }
+  #lezioni .row>.left  {
+    padding-bottom: 20px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    padding-bottom: 20px;
+} 
+
+   
+
+
+
+
+}
+
+
